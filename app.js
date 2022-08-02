@@ -39,7 +39,9 @@ app.all('/180/**', async (req, res) => {
   res.status(200).send(`Response after ${180} seconds`);
 });
 
-app.listen(3000, () => {
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
   console.log('listening on port 3000');
 });
 
