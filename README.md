@@ -1,6 +1,6 @@
 ## Build docker image
 ```
-docker build .
+docker build . -t timeout-app
 ```
 ---
 ## Run locally
