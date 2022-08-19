@@ -1,0 +1,5 @@
+build:
+  docker:
+    jaegar: Dockerfile
+release:
+  image: jaegar
